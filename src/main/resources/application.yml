@@ -1,0 +1,16 @@
+spring:
+  ai:
+    ollama:
+      chat:
+        model: llama3.1
+
+springdoc:
+
+  version: 1.0
+  swagger-ui:
+    display-request-duration: true
+    groups-order: DESC
+    use-root-path: true
+  writer-with-order-by-keys: true
+
+debug: false

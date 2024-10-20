@@ -4,6 +4,6 @@ Spring com Ollama usando a API do Spring e também a langchain4j, junto com um s
 
 ## Ollama setup
 
-ollama serve
-ollama pull llama3.1
+* ollama serve
+* ollama pull llama3.2
 

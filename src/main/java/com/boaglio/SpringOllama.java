@@ -22,7 +22,7 @@ public class SpringOllama {
     @Bean
     public OpenAPI springShopOpenAPI() {
         return new OpenAPI()
-                .info(new Info().title("Spring Ollama API")
+                .info(new Info().title("DevMultitask Spring Ollama API")
                         .description("Exemplos de Spring Ollama - por Fernando Boaglio - YouTube @DevMultitask ")
                         .version("v1.0"))
                 .externalDocs(new ExternalDocumentation().description("GitHub").url("https://github.com/boaglio/spring-ollama"));

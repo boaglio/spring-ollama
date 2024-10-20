@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Bean;
 public class SpringOllama {
 
     public static final String OLLAMA_HOST = "http://localhost:11434";
-    public static final String MODEL = "llama3.1";
+    public static final String MODEL = "llama3.2";
     public static final String DOC =  "memoriasBras-cap1.pdf";
 
     public static void main(String[] args) {
